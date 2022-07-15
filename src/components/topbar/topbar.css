@@ -97,3 +97,11 @@
   object-fit: cover;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  
+  .topbarContainer{
+      width: 100%;
+  }
+ 
+}

@@ -91,3 +91,15 @@
   cursor: pointer;
   opacity: 0.7;
 }
+
+@media (max-width: 480px) {
+  
+  .share{
+    width: 100%;
+   
+    aspect-ratio: 100 / 29;
+  }
+ 
+
+ 
+}

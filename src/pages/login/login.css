@@ -1,7 +1,7 @@
 .login {
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@
   font-family: cursive;
   font-size: 50px;
   font-weight: 800;
-  color: deeppink;
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -86,8 +86,18 @@
     border-radius: 10px;
     border: none;
     background-color: #42b72a;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  
+  .loginRight{
+      background-color: black;
+  }
+ 
+
+ 
 }
